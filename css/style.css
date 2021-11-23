@@ -1,0 +1,365 @@
+* {
+    font-family: 'Alegreya', serif;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 600;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.clr {
+    clear: both;
+}
+
+
+/* Starting of Hero */
+
+.hero {
+    background-image: url(../Images/drew-coffman-1872.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero .div-hero .welcome {
+    font-family: 'Alegreya', serif;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+    position: relative;
+    top: 200px;
+}
+
+.hero .note {
+    font-family: 'Alegreya', serif;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+    position: relative;
+    top: 120px;
+}
+
+.hero .div-hero h1 {
+    font-family: 'Alegreya', serif;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    position: relative;
+    top: 150px
+}
+
+.hero .buttons {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.hero button {
+    border-radius: 5px;
+    padding: 15px 20px;
+    color: white;
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 .5rem;
+}
+
+.hero .button1 {
+    background-color: #8e7755;
+}
+
+.hero .button2 {
+    background-color: transparent;
+    border: 2px white solid;
+}
+
+.hero a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+
+/* End of Hero */
+
+
+/* Starting of Who  */
+
+.who {
+    margin-top: 60px;
+}
+
+.who .div-who .div-who-img {
+    width: 45%;
+    float: left;
+}
+
+.who .div-who .div-who-img img {
+    max-width: 100%;
+}
+
+.who .div-who .div-who-words {
+    width: 50%;
+    float: right;
+}
+
+.who .div-who .div-who-words p {
+    font-size: 18px;
+}
+
+.who .div-who .div-who-words h1 {
+    font-size: 40px;
+}
+
+.who .div-who .div-who-words .icons {
+    display: inline;
+}
+
+.who .div-who .div-who-words .icons .icon-item {
+    display: flex;
+    align-items: center;
+}
+
+.who .div-who .div-who-words .icons i {
+    float: left;
+    padding-right: 1rem;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.who .div-who .div-who-words .icons p {
+    float: left;
+    margin: 0;
+    font-size: 25px;
+}
+
+
+/* End of Who  */
+
+
+/* Start of Location */
+
+.location {
+    padding-top: 60px;
+    margin-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f8f8f8;
+}
+
+.location .div-location {
+    overflow: hidden;
+}
+
+.location .div-location .div-location-img {
+    width: 45%;
+    float: right;
+}
+
+.location .div-location .div-location-img img {
+    max-width: 100%;
+}
+
+.location .div-location .div-location-words {
+    /* background-color: blue; */
+    width: 50%;
+    float: left;
+    /* padding-right: 50px; */
+}
+
+.location .div-location .div-location-words p {
+    font-size: 18px;
+}
+
+.location .div-location .div-location-words h1 {
+    font-size: 40px;
+}
+
+
+/* End of Location */
+
+
+/* Start of Baking */
+
+.baking {
+    margin-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.baking .div-baking {}
+
+.baking .div-baking .div-baking-divs {
+    float: left;
+}
+
+.baking .div-baking .div-baking-divs-item {
+    width: 32%;
+    float: left;
+}
+
+.baking .div-baking .left-item {
+    padding-right: 2%;
+}
+
+.baking .div-baking .right-item {
+    padding-left: 2%;
+}
+
+.baking .div-baking .div-baking-divs-item img {
+    max-width: 100%;
+}
+
+
+/* End of Baking */
+
+
+/*start of contact */
+
+.contact {
+    padding-top: 60px;
+    margin-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f8f8f8;
+}
+
+.contact .div-contact {
+    overflow: hidden;
+}
+
+.contact .div-contact .div-contact-maps {
+    width: 45%;
+    float: right;
+}
+
+.contact .div-contact .div-contact-words {
+    /* background-color: blue; */
+    width: 50%;
+    float: left;
+    /* padding-right: 50px; */
+}
+
+.contact .div-contact .div-contact-words p {
+    font-size: 18px;
+}
+
+.contact .div-contact .div-contact-words h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.contact .div-contact .div-contact-words .icons .icon-item {
+    display: flex;
+    align-items: center;
+}
+
+.contact .div-contact .div-contact-words .icons i {
+    float: left;
+    padding-right: 1rem;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*end of contact */
+
+
+/* Start of about */
+
+.about {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background-color: #403d38;
+}
+
+.about .div-about {
+    color: white;
+}
+
+.about .div-about .div-about-divs {
+    overflow: hidden;
+}
+
+.about .div-about .div-about-divs p {
+    margin: 2px;
+}
+
+.about .div-about .div-about-divs h5 {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.about .div-about .div-about-divs .div-about-divs-item:first-child {
+    float: left;
+    width: 24%;
+    padding-right: 1.333%;
+}
+
+.about .div-about .div-about-divs .div-about-divs-item:first-child p {
+    margin: 40px 10px 40px 0px
+}
+
+.about .div-about .div-about-divs .div-about-divs-item:nth-child(2) {
+    float: left;
+    width: 24%;
+    padding-right: 1.333%;
+}
+
+.about .div-about .div-about-divs .div-about-divs-item:nth-child(3) {
+    float: left;
+    width: 24%;
+    padding-right: 1.333%;
+}
+
+.about .div-about .div-about-divs .div-about-divs-item:nth-child(4) {
+    float: left;
+    width: 24%;
+    background-image: url(./Images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about .div-about .div-about-divs .div-about-divs-item-img-cover {}
+
+.about .div-about .div-about-divs .low-light {
+    color: rgba(255, 255, 255, 0.1);
+}
+
+
+/* End of about */
+
+
+/*Start of footer */
+
+.footer {
+    background-color: #353330;
+    overflow: hidden;
+    text-align: center;
+    height: 250px;
+    color: white;
+}
+
+.footer .div-footer-bakery img {
+    background-color: white;
+    position: relative;
+    top: 60px;
+    width: 300px;
+}
+
+.footer .div-footer p {
+    position: relative;
+    top: 70px;
+}
+
+.footer .div-footer .div-footer-icons {
+    position: relative;
+    top: 80px;
+}
+
+
+/* End of footer */
