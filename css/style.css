@@ -285,6 +285,18 @@
     overflow: hidden;
 }
 
+.about .div-about .div-about-divs h5,
+.about .div-about .div-about-divs p {
+    transition: all .25s ease-in-out;
+    cursor: pointer;
+}
+
+.about .div-about .div-about-divs h5:hover,
+.about .div-about .div-about-divs p:hover {
+    color: rebeccapurple;
+    transition: all .25s ease-in-out;
+}
+
 .about .div-about .div-about-divs p {
     margin: 2px;
 }
@@ -323,8 +335,6 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-
-.about .div-about .div-about-divs .div-about-divs-item-img-cover {}
 
 .about .div-about .div-about-divs .low-light {
     color: rgba(255, 255, 255, 0.1);
